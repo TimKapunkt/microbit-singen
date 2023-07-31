@@ -1,3 +1,6 @@
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showString("Hey, du hast das Easteregg gefunden!!! :)")
+})
 input.onButtonPressed(Button.A, function () {
     track += 1
 })
